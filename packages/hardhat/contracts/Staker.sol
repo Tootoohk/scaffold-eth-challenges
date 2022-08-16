@@ -11,7 +11,7 @@ contract Staker {
   mapping(address => uint256) public balances;
   mapping(address => uint256) public depositTimestamps;
 
-  uint256 public constant rewardRatePerBlock = 0.1 ether;
+  uint256 public constant rewardRatePerSecond = 0.1 ether;
   uint256 public withdrawalDeadline = block.timestamp + 120 seconds;
   uint256 public claimDeadline = block.timestamp + 240 seconds;
   uint256 public currentBlock = 0;
