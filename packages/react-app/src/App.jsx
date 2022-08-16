@@ -526,7 +526,7 @@ function App(props) {
 
             <div style={{ padding: 8, marginTop: 16 }}>
               <div>Reward Rate Per Second:</div>
-              <Balance balance={rewardRatePerBlock} fontSize={64} /> ETH
+              <Balance balance={rewardRatePerSecond} fontSize={64} /> ETH
             </div>
 
             <Divider />
